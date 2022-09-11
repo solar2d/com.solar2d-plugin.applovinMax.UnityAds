@@ -3,5 +3,5 @@ repositories {
 	mavenCentral()
 }
 dependencies {
-		 implementation 'com.applovin.mediation:unityads-adapter:4.0.0.2'
+		 implementation 'com.applovin.mediation:unityads-adapter:4.3.0.0'
 }

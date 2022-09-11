@@ -4,9 +4,10 @@ local metadata =
 	{
 		format = 'staticLibrary',
 
-		staticLibs = { "ObjC", "c++", "z"},
-		frameworks = {"AppLovinMediationUnityAdsAdapter", "UnityAds"},
+		staticLibs = { "ObjC", "c++", "z", "UnityAdsAdapter"},
+		frameworks = { "UnityAds"},
 		frameworksOptional = {"AppTrackingTransparency"},
+		usesSwift = true,
 	},
 
 }
