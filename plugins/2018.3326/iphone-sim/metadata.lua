@@ -10,6 +10,7 @@ local metadata =
 
 		frameworks = {},
 		frameworksOptional = {"AdSupport", "AppTrackingTransparency"},
+		usesSwift = true,
 	},
 
 }
